@@ -14,7 +14,7 @@ module.exports = {
         PersistXMLHttp: require("actorjs-persist").PersistXMLHttp
     },
     components: {
-        InputComponent: require("actorjs-components").InputComponent,
+        InputComponent: require("./src/InputComponent"),
         SelectComponent: require("./src/SelectComponent"),
         ValidationComponent: require("./src/ValidationComponent")
     }
