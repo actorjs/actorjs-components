@@ -63,12 +63,6 @@ var InputComponent = function (name) {
             }, this);
         }
     });
-
-    this.init = function(){
-        this.validators = this.validators.map(function (validator) {
-            return this.context.actorOf(validator, "324324"   )
-        }, this);
-    }
 }
 
 
